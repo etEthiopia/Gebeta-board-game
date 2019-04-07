@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            table{
+                padding: 0px;
+                border: 0px solid black;
+                border-spacing: 0px;
+            }
+            table td{
+                padding: 0px;
+                border-spacing: 0px;
+                border:0px solid black;
+                width:200px;
+                margin: 0px;
+                
+            }
+            img {
+                width: 200px; 
+                height:200px;
+            }
+            .mancalla{
+                width: 600px; 
+                height:100px;
+            }
+           
+        </style>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="mancala" id="hole14" colspan="3">
+                    <img   class="mancalla" src="mancala.png" width="600px" height="100px">
+                </td>
+            </tr>
+            <tr>
+                <td class="player1" id="hole1" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+                <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                <td class="player2" id="hole13" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                <td class="player1" id="hole2" onclick="holeClicked(this.id)"> <img src="holegebeta4.png" width="200px" height="200px"></td>
+                <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                <td class="player2" id="hole12" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                    <td class="player1" id="hole3" onclick="holeClicked(this.id)"> <img src="holegebeta4.png" width="200px" height="200px"></td>
+                    <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                    <td class="player2" id="hole11" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                    <td class="player1" id="hole4" onclick="holeClicked(this.id)"> <img src="holegebeta4.png" width="200px" height="200px"></td>
+                    <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                    <td class="player2" id="hole10" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                    <td class="player1" id="hole5" onclick="holeClicked(this.id)"> <img src="holegebeta4.png" width="200px" height="200px"></td>
+                    <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                    <td class="player2" id="hole9" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                    <td class="player1" id="hole6" onclick="holeClicked(this.id)"> <img src="holegebeta4.png" width="200px" height="200px"></td>
+                    <td><img src="middlegebeta.png" width="200px" height="200px"></td>
+                    <td class="player2" id="hole8" onclick="holeClicked(this.id)"><img src="holegebeta4.png" width="200px" height="200px"></td>
+            </tr>
+            <tr>
+                <td class="mancala" id="hole7" colspan="3">
+                        <img  class="mancalla" src="holegebeta.png" width="600px" height="100px">
+                </td>
+            </tr>
+        </table>
+        <script src = "board2.js"></script>
+    </body>
+
+</html>
